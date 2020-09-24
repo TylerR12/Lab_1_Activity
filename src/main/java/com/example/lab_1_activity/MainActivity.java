@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d(tag, "In the onResume() event");
         fragment.display(getString(R.string.onResume));
         Toast.makeText(MainActivity.this,"OnResume",Toast.LENGTH_SHORT).show();
+        
     }
     public void onPause()
     {
