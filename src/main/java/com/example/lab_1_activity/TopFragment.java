@@ -1,5 +1,6 @@
 package com.example.lab_1_activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,8 +8,10 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 
 public class TopFragment extends Fragment {
@@ -41,7 +44,22 @@ public class TopFragment extends Fragment {
 
         listView.setAdapter(adapter);
 
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                String selected_item = String.valueOf(adapterView.getItemAtPosition(i));
+                //Toast.makeText(TopFragment.this, selected_item, Toast.LENGTH_SHORT).show();
+                 if (i == 0){
+                   Intent intent = new Intent(view.getContext(), AIActivity.class);
+                 startActivity(intent);
+
+                 }
+
+            }
+        });
+
         return view;
     }
+
 
 }

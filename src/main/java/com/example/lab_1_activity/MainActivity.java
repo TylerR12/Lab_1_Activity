@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
         fragment = (BottomFragment)getSupportFragmentManager().findFragmentById(R.id.fragment4);
         fragment.display(getString(R.string.onCreate));
         Toast.makeText(MainActivity.this,"OnCreate",Toast.LENGTH_SHORT).show();
+
+
     }
     public void onStart()
     {
