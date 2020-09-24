@@ -52,8 +52,11 @@ public class TopFragment extends Fragment {
                  if (i == 0){
                    Intent intent = new Intent(view.getContext(), AIActivity.class);
                  startActivity(intent);
-
                  }
+                if (i == 1){
+                    Intent intent2 = new Intent(view.getContext(), VRActivity.class);
+                    startActivity(intent2);
+                }
 
             }
         });
