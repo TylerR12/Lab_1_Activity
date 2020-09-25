@@ -1,4 +1,4 @@
-package com.example.lab_1_activity;
+package com.example.TylerRuffolo_CENG319_Lab1_Ex1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 import android.util.Log;
-import android.widget.TextView;
 import android.widget.Toast;
 
 

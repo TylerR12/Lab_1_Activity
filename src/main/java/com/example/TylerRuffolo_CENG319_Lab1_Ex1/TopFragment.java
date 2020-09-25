@@ -1,4 +1,4 @@
-package com.example.lab_1_activity;
+package com.example.TylerRuffolo_CENG319_Lab1_Ex1;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,7 +11,6 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.Toast;
 
 
 public class TopFragment extends Fragment {

@@ -1,4 +1,4 @@
-package com.example.lab_1_activity;
+package com.example.TylerRuffolo_CENG319_Lab1_Ex1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
