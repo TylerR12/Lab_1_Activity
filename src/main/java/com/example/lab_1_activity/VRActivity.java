@@ -31,7 +31,7 @@ public class VRActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vr_activity);
         DisplayVRActivity(getString(R.string.onCreate));
-        Toast.makeText(VRActivity.this,"OnRestart",Toast.LENGTH_SHORT).show();
+        //Toast.makeText(VRActivity.this,"OnRestart",Toast.LENGTH_SHORT).show();
     }
 
     public void onStart()
@@ -48,7 +48,7 @@ public class VRActivity extends AppCompatActivity {
         super.onRestart();
         DisplayVRActivity(getString(R.string.onRestart));
         Log.d(tag, "In the onRestart() event");
-        Toast.makeText(VRActivity.this,"OnRestart",Toast.LENGTH_SHORT).show();
+        //Toast.makeText(VRActivity.this,"OnRestart",Toast.LENGTH_SHORT).show();
 
 
     }
@@ -57,7 +57,7 @@ public class VRActivity extends AppCompatActivity {
         super.onResume();
         DisplayVRActivity(getString(R.string.onResume));
         Log.d(tag, "In the onResume() event");
-        Toast.makeText(VRActivity.this,"OnResume",Toast.LENGTH_SHORT).show();
+        //Toast.makeText(VRActivity.this,"OnResume",Toast.LENGTH_SHORT).show();
 
 
     }
@@ -66,7 +66,7 @@ public class VRActivity extends AppCompatActivity {
         super.onPause();
         DisplayVRActivity(getString(R.string.onPause));
         Log.d(tag, "In the onPause() event");
-        Toast.makeText(VRActivity.this,"OnPause",Toast.LENGTH_SHORT).show();
+       // Toast.makeText(VRActivity.this,"OnPause",Toast.LENGTH_SHORT).show();
 
 
     }
@@ -75,7 +75,7 @@ public class VRActivity extends AppCompatActivity {
         super.onStop();
         DisplayVRActivity(getString(R.string.onStop));
         Log.d(tag, "In the onStop() event");
-        Toast.makeText(VRActivity.this,"OnStop",Toast.LENGTH_SHORT).show();
+        //Toast.makeText(VRActivity.this,"OnStop",Toast.LENGTH_SHORT).show();
 
 
     }
@@ -84,7 +84,7 @@ public class VRActivity extends AppCompatActivity {
         super.onDestroy();
         DisplayVRActivity(getString(R.string.onDestroy));
         Log.d(tag, "In the onDestroy() event");
-        Toast.makeText(VRActivity.this,"OnDestroy",Toast.LENGTH_SHORT).show();
+        //Toast.makeText(VRActivity.this,"OnDestroy",Toast.LENGTH_SHORT).show();
 
     }
 }

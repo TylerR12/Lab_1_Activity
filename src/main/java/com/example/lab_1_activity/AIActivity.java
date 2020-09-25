@@ -45,7 +45,6 @@ public class AIActivity extends AppCompatActivity {
         super.onRestart();
         DisplayAIActivity(getString(R.string.onRestart));
         Log.d(tag, "In the onRestart() event");
-        Toast.makeText(AIActivity.this,"OnRestart",Toast.LENGTH_SHORT).show();
 
 
     }
@@ -54,7 +53,6 @@ public class AIActivity extends AppCompatActivity {
         super.onResume();
         DisplayAIActivity(getString(R.string.onResume));
         Log.d(tag, "In the onResume() event");
-        Toast.makeText(AIActivity.this,"OnResume",Toast.LENGTH_SHORT).show();
 
 
     }
@@ -63,7 +61,6 @@ public class AIActivity extends AppCompatActivity {
         super.onPause();
         DisplayAIActivity(getString(R.string.onPause));
         Log.d(tag, "In the onPause() event");
-        Toast.makeText(AIActivity.this,"OnPause",Toast.LENGTH_SHORT).show();
 
 
     }
@@ -72,7 +69,6 @@ public class AIActivity extends AppCompatActivity {
         super.onStop();
         DisplayAIActivity(getString(R.string.onStop));
         Log.d(tag, "In the onStop() event");
-        Toast.makeText(AIActivity.this,"OnStop",Toast.LENGTH_SHORT).show();
 
 
     }
@@ -81,7 +77,6 @@ public class AIActivity extends AppCompatActivity {
         super.onDestroy();
         DisplayAIActivity(getString(R.string.onDestroy));
         Log.d(tag, "In the onDestroy() event");
-        Toast.makeText(AIActivity.this,"OnDestroy",Toast.LENGTH_SHORT).show();
 
     }
 

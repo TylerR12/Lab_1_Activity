@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class BottomFragment extends Fragment {
@@ -35,7 +36,15 @@ public class BottomFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        Toast.makeText(getActivity(),"OnCreateView",Toast.LENGTH_SHORT).show();
         return inflater.inflate(R.layout.fragment_bottom, container, false);
+
+    }
+
+    public void onStart(){
+        super.onStart();
+        Toast.makeText(getActivity(),"OnStart",Toast.LENGTH_SHORT).show();
+
     }
 
     public void display(String msg){

@@ -48,7 +48,6 @@ public class TopFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 String selected_item = String.valueOf(adapterView.getItemAtPosition(i));
-                //Toast.makeText(TopFragment.this, selected_item, Toast.LENGTH_SHORT).show();
                  if (i == 0){
                    Intent intent = new Intent(view.getContext(), AIActivity.class);
                  startActivity(intent);
