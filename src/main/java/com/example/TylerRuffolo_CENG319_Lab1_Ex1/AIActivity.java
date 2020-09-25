@@ -15,7 +15,7 @@ public class AIActivity extends AppCompatActivity {
     public void DisplayAIActivity(String msg){
 
         if(msg.equalsIgnoreCase(getString(R.string.onPause)) || msg.equalsIgnoreCase(getString(R.string.onRestart))){
-            ((TextView)findViewById(R.id.textView3)).setText("AIActivity:");
+            ((TextView)findViewById(R.id.textView3)).setText(getString(R.string.AI_Activity));
 
         }
         ((TextView)findViewById(R.id.textView3)).append("\n " + msg);

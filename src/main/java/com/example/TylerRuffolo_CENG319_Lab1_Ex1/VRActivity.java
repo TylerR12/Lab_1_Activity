@@ -17,7 +17,7 @@ public class VRActivity extends AppCompatActivity {
     public void DisplayVRActivity(String msg){
 
         if(msg.equalsIgnoreCase(getString(R.string.onPause)) || msg.equalsIgnoreCase(getString(R.string.onRestart))){
-            ((TextView)findViewById(R.id.textViewVR)).setText("AIActivity:");
+            ((TextView)findViewById(R.id.textViewVR)).setText(getString(R.string.VR_Activity));
 
         }
         ((TextView)findViewById(R.id.textViewVR)).append("\n " + msg);

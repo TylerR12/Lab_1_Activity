@@ -36,27 +36,27 @@ public class BottomFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        Toast.makeText(getActivity(),"OnCreateView",Toast.LENGTH_SHORT).show();
+        Toast.makeText(getActivity(),getString(R.string.onCreateView),Toast.LENGTH_SHORT).show();
         return inflater.inflate(R.layout.fragment_bottom, container, false);
 
     }
 
     public void onStart(){
         super.onStart();
-        Toast.makeText(getActivity(),"OnStart",Toast.LENGTH_SHORT).show();
+        Toast.makeText(getActivity(),getString(R.string.onStart),Toast.LENGTH_SHORT).show();
 
     }
 
     public void display(String msg){
         TextView textView = (TextView)getActivity().findViewById(R.id.textViewC);
         if(msg.equalsIgnoreCase(getString(R.string.onPause))){
-            textView.setText("Main Activity:");
+            textView.setText(getString(R.string.MainActivity));
         }
         if(msg.equalsIgnoreCase(getString(R.string.onCreate))){
-            textView.setText("Main Activity:");
+            textView.setText(getString(R.string.MainActivity));
         }
         if(msg.equalsIgnoreCase(getString(R.string.onRestart))){
-            textView.setText("Main Activity:");
+            textView.setText(getString(R.string.MainActivity));
         }
         textView.setText(textView.getText().toString()+ "\n" + msg);
 

@@ -14,11 +14,11 @@ import android.widget.ListView;
 
 
 public class TopFragment extends Fragment {
-
+/*
     String[] act = new String[]
             {
                     "AIActivity",
-                    "VRActivity"};
+                    "VRActivity"};*/
     ListView listView;
 
 
@@ -39,7 +39,7 @@ public class TopFragment extends Fragment {
 
         ListView listView = view.findViewById(R.id.listview);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, act);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.act));
 
         listView.setAdapter(adapter);
 

@@ -1,12 +1,23 @@
 <resources>
     <string name="app_name">RuffoloTyler_Lab_1_Activity</string>
     <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="act">
+        <item>AIActivité</item>
+        <item>VRActivité</item>
+    </string-array>
+
     <string name="hello_blank_fragment">bonjour fragment vierge</string>
-    <string name="onCreate">suCreate actif</string>
-    <string name="onStart">surStart actif</string>
-    <string name="onRestart">surRestart actif</string>
-    <string name="onResume">surResume actif</string>
+    <string name="onCreate">suréer actif</string>
+    <string name="onStart">surDébut actif</string>
+    <string name="onRestart">surRedémarrer actif</string>
+    <string name="onResume">surReprendre actif</string>
     <string name="onPause">surPause actif</string>
-    <string name="onStop">surStop actif</string>
-    <string name="onDestroy">surDestroy actif</string>
+    <string name="onStop">surArrêtez actif</string>
+    <string name="onDestroy">surDétruire actif</string>
+    <string name="MainActivity">Activité principale: </string>
+    <string name="onCreateView">surCréerUneVue actif</string>
+
+    <string name="AI_Activity"> AIActivité: </string>
+    <string name="VR_Activity"> VRActivité: </string>
+
 </resources>

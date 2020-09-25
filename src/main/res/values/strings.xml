@@ -1,12 +1,23 @@
 <resources>
     <string name="app_name">RuffoloTyler_Lab_1_Activity</string>
     <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="act">
+        <item>AIActivity</item>
+        <item>VRActivity</item>
+    </string-array>
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="onCreate">onCreate active</string>
+    <string name="onCreateView">onCreateView active</string>
     <string name="onStart">onStart active</string>
     <string name="onRestart">onRestart active</string>
     <string name="onResume">onResume active</string>
     <string name="onPause">onPause active</string>
     <string name="onStop">onStop active</string>
     <string name="onDestroy">onDestroy active</string>
+    <string name="MainActivity"> Main Activity: </string>
+
+    <string name="AI_Activity"> AIActivity: </string>
+    <string name="VR_Activity"> VRActivity: </string>
+
 </resources>
