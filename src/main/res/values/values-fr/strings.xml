@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RuffoloTyler_Lab_1_Activity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">bonjour fragment vierge</string>
+    <string name="onCreate">suCreate actif</string>
+    <string name="onStart">surStart actif</string>
+    <string name="onRestart">surRestart actif</string>
+    <string name="onResume">surResume actif</string>
+    <string name="onPause">surPause actif</string>
+    <string name="onStop">surStop actif</string>
+    <string name="onDestroy">surDestroy actif</string>
+</resources>
